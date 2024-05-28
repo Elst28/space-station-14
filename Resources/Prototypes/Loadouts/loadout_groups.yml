@@ -43,6 +43,7 @@
   loadouts:
   - CaptainHead
   - CaptainCap
+  - CaptainCrown
 
 - type: loadoutGroup
   id: CaptainJumpsuit
@@ -717,7 +718,7 @@
   loadouts:
   - ResearchDirectorMantle
   - ResearchDirectorCloak
-
+  - ResearchDirectorCloakAlt
 - type: loadoutGroup
   id: ResearchDirectorJumpsuit
   name: loadout-group-research-director-jumpsuit
