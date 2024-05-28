@@ -102,6 +102,16 @@
   equipment:
     jumpsuit: ClothingUniformJumpskirtSeniorOfficer
 
+
+- type: loadout
+  id: HECUUniform
+  equipment: HECUUniform
+
+- type: startingGear
+  id: HECUUniform
+  equipment:
+    jumpsuit: ClothingUniformHECU
+
 # Back
 - type: loadout
   id: SecurityBackpack

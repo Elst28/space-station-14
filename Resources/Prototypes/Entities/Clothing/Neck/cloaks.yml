@@ -44,6 +44,17 @@
 
 - type: entity
   parent: ClothingNeckBase
+  id: ClothingNeckCloakCeAlt
+  name: chief engineer's cloak
+  description: A white cloak with orange elements, it shows your intelligence, or your craving for the color white.
+  components:
+  - type: Sprite
+    sprite: Clothing/Neck/Cloaks/cealt.rsi
+  - type: StealTarget
+    stealGroup: HeadCloak
+
+- type: entity
+  parent: ClothingNeckBase
   id: ClothingCloakCmo
   name: chief medical officer's cloak
   description: A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others.
