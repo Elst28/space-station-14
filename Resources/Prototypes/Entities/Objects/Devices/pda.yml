@@ -741,10 +741,11 @@
   parent: CentcomPDA
   id: AdminPDA
   name: Admin PDA
+  suffix: Admin
   description: If you are not an admin please return this PDA to the nearest admin.
   components:
   - type: Pda
-    id: PassengerIDCard
+    id: UniversalIDCard
   - type: HealthAnalyzer
     scanDelay: 0
   - type: CartridgeLoader
@@ -1145,3 +1146,17 @@
       whitelist:
         components:
           - Cartridge
+
+- type: entity
+  parent: BasePDA
+  id: ShuttlePilotPDA
+  name: Pilot PDA
+  description: Red to hide the stains of assistant blood.
+  components:
+  - type: Pda
+    id: ShuttlePilotIDCard
+    state: pda-security
+  - type: PdaBorderColor
+    borderColor: "#A32D26"
+  - type: Icon
+    state: pda-security
